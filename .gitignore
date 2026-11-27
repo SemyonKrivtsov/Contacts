@@ -1,0 +1,41 @@
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Gradle & Kotlin
+.gradle/
+.kotlin/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.aab_
+*.dex
+*.class
+
+# Keystore files
+*.jks
+*.keystore
+
+# Android profiling, captures & native build
+*.hprof
+/captures/
+.navigation/
+.externalNativeBuild/
+.cxx/
+output-metadata.json
+
+# Log files
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
